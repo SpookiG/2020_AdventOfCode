@@ -29,7 +29,7 @@ def colCheck(col):
     return True
 
 
-with open("day4input.txt") as file:
+with open("day04input.txt") as file:
     passports = []
     passportString = ""
 

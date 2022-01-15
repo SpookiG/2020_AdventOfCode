@@ -1,4 +1,4 @@
-with open("day2input.txt") as file:
+with open("day02input.txt") as file:
     passwords = []
     policies = []
 

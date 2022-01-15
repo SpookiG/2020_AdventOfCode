@@ -1,4 +1,4 @@
-with open("day1input.txt") as file:
+with open("day01input.txt") as file:
     inputArray = [int(line.strip()) for line in file.read().split('\n') if len(line.strip()) > 0]
     #print (inputArray)
 

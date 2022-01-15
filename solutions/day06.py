@@ -1,6 +1,6 @@
 from functools import reduce
 
-with open("day6input.txt") as file:
+with open("day06input.txt") as file:
     groupAnswerStrings = file.read().split("\n\n")
     groupAnswers = [{answer for answer in answerString.replace("\n", "")} for answerString in groupAnswerStrings]
 

@@ -1,4 +1,4 @@
-with open("day9input.txt") as file:
+with open("day09input.txt") as file:
     nums = [int(line) for line in file]
     numChecks = []
 

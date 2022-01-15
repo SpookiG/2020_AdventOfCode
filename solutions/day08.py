@@ -21,7 +21,7 @@ instructions = {
 
 
 
-with open("day8input.txt") as file:
+with open("day08input.txt") as file:
     program = [(line.split(" ")[0], int(line.strip().split(" ")[1])) for line in file]
     runLines = set()
     currentStatus = {"index": 0, "accumulate": 0}

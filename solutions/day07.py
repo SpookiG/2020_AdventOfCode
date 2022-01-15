@@ -8,7 +8,7 @@ def countBags(bagBagLookup, topBag, multiplier=1):
     
     return count
 
-with open("day7input.txt") as file:
+with open("day07input.txt") as file:
     bagBagStringLookup = {line.split(" bags contain ")[0]: line.split(" bags contain ")[1] for line in file}
     bagBagStringLookup = {keyBag: [valueBag.strip() for valueBag in bagBagStringLookup[keyBag].split(",")] for keyBag in bagBagStringLookup}
 

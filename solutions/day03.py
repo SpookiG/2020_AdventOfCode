@@ -1,7 +1,7 @@
 def getPath(treeGrid, xstep, ystep=1):
     return [treeGrid[y][x % len(treeGrid[y])] for x, y in zip(range(0, 10000, xstep), range(0, len(treeGrid), ystep))]
 
-with open("day3input.txt") as file:
+with open("day03input.txt") as file:
     treeGrid = [line.strip() for line in file]
 
     path = [line[sideStep % len(line)] for line, sideStep in zip(treeGrid, range(0, 10000, 3))]
