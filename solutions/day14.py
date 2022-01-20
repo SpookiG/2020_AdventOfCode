@@ -51,6 +51,7 @@ def parse(line):
 
 # need a simple parser to interpret instructions
 with open("day14input.txt") as file:
+    # some simple tests to make sure the int to string and string to int functions run as expected before use in the program
     print("Tests for the int to string and int from string conversion functions")
     print("Testing int to string length, should match mask:")
     print("Mask: 0111X10100100X1111X10010X000X1000001")

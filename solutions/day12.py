@@ -6,10 +6,10 @@ WEST = 3
 # question 1 actions
 def MoveAction(ship, direction, amount):
     if direction == NORTH:
-        ship["pos"] = (ship["pos"][0], ship["pos"][1] + amount)
+        ship["pos"] = (ship["pos"][0], ship["pos"][1] + amount)         # maybe I should have just used a list for positions even if it makes the dimensions mutable, tuples overcomplicated this because immutability means you need to unpack & reassign each time
     
     if direction == EAST:
-        ship["pos"] = (ship["pos"][0] + amount, ship["pos"][1])
+        ship["pos"] = (ship["pos"][0] + amount, ship["pos"][1])         # oh or an object! Duh
 
     if direction == SOUTH:
         ship["pos"] = (ship["pos"][0], ship["pos"][1] - amount)

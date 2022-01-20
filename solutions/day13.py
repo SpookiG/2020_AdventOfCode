@@ -1,7 +1,3 @@
-import ast
-from asyncio.windows_events import NULL
-from itertools import accumulate
-
 with open("day13input.txt") as file:
     earliestDeparture = int(file.readline())
     busses = [bus.strip() for bus in file.readline().split(",")]
