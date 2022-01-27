@@ -44,7 +44,7 @@ namespace day17
 
             if (test2Pass)
             {
-                Console.WriteLine("\n\nTest 1 passed! Running input 1:");
+                Console.WriteLine("\n\nTest 2 passed! Running input 2:");
                 int result2 = Solver.RunProblem2(Input2);
                 Console.WriteLine($"Result: {result2}");
             }
