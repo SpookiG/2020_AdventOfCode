@@ -9,30 +9,28 @@ namespace day17
         static void Main(string[] args)
         {
             Console.WriteLine("Parsing inputs:");
-            Console.WriteLine(AppDomain.CurrentDomain.BaseDirectory);
             HashSet<Vector3> Test1Input = InputHandler.Parse1(AppDomain.CurrentDomain.BaseDirectory + @"..\..\..\test1input.txt");
             HashSet<Vector4> Test2Input = InputHandler.Parse2(AppDomain.CurrentDomain.BaseDirectory + @"..\..\..\test1input.txt");
-
             HashSet<Vector3> Input1 = InputHandler.Parse1(AppDomain.CurrentDomain.BaseDirectory + @"..\..\..\input.txt");
             HashSet<Vector4> Input2 = InputHandler.Parse2(AppDomain.CurrentDomain.BaseDirectory + @"..\..\..\input.txt");
             Console.WriteLine("Inputs parsed");
 
 
             Console.WriteLine("\nRunning tests:");
-            int expectedResult1 = 112;
-            int expectedResult2 = 848;
 
             Console.WriteLine("Running test 1:");
+            int expectedResult1 = 112;
             int test1Result = Solver.RunProblem1(Test1Input);
             bool test1Pass = test1Result == expectedResult1;
             Console.WriteLine($"Expected result: {expectedResult1}. Actual result: {test1Result}. Pass?: {test1Pass}");
 
             Console.WriteLine("Running test 2:");
+            int expectedResult2 = 848;
             int test2Result = Solver.RunProblem2(Test2Input);
             bool test2Pass = test2Result == expectedResult2;
             Console.WriteLine($"Expected result: {expectedResult2}. Actual result: {test2Result}. Pass?: {test2Pass}");
             
-
+            Console.WriteLine("\nTests completed");
 
 
             if (test1Pass)
@@ -107,6 +105,8 @@ namespace day17
             return cubes;
         }
     }
+
+
 
     public static class Solver
     {
@@ -229,7 +229,6 @@ namespace day17
                                     }
                                 }
                             }
-                            
                         }
                     }
                 }
@@ -271,6 +270,8 @@ namespace day17
 
 
     }
+
+
 
     // Vector3 is a struct so it can be indexed by value in a dictionary
     public struct Vector3

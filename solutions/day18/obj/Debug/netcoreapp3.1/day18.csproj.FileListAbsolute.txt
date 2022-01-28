@@ -1,0 +1,13 @@
+C:\Users\_Maddi\projects\code\2020_AdventOfCode\solutions\day18\obj\Debug\netcoreapp3.1\day18.csprojAssemblyReference.cache
+C:\Users\_Maddi\projects\code\2020_AdventOfCode\solutions\day18\obj\Debug\netcoreapp3.1\day18.csproj.CoreCompileInputs.cache
+C:\Users\_Maddi\projects\code\2020_AdventOfCode\solutions\day18\obj\Debug\netcoreapp3.1\day18.AssemblyInfoInputs.cache
+C:\Users\_Maddi\projects\code\2020_AdventOfCode\solutions\day18\obj\Debug\netcoreapp3.1\day18.AssemblyInfo.cs
+C:\Users\_Maddi\projects\code\2020_AdventOfCode\solutions\day18\bin\Debug\netcoreapp3.1\day18.exe
+C:\Users\_Maddi\projects\code\2020_AdventOfCode\solutions\day18\bin\Debug\netcoreapp3.1\day18.deps.json
+C:\Users\_Maddi\projects\code\2020_AdventOfCode\solutions\day18\bin\Debug\netcoreapp3.1\day18.runtimeconfig.json
+C:\Users\_Maddi\projects\code\2020_AdventOfCode\solutions\day18\bin\Debug\netcoreapp3.1\day18.runtimeconfig.dev.json
+C:\Users\_Maddi\projects\code\2020_AdventOfCode\solutions\day18\bin\Debug\netcoreapp3.1\day18.dll
+C:\Users\_Maddi\projects\code\2020_AdventOfCode\solutions\day18\bin\Debug\netcoreapp3.1\day18.pdb
+C:\Users\_Maddi\projects\code\2020_AdventOfCode\solutions\day18\obj\Debug\netcoreapp3.1\day18.dll
+C:\Users\_Maddi\projects\code\2020_AdventOfCode\solutions\day18\obj\Debug\netcoreapp3.1\day18.pdb
+C:\Users\_Maddi\projects\code\2020_AdventOfCode\solutions\day18\obj\Debug\netcoreapp3.1\day18.genruntimeconfig.cache

@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\layco\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\layco\\.nuget\\packages"
+    ]
+  }
+}
